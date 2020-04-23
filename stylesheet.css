@@ -1,0 +1,121 @@
+.title {
+	text-align: center;
+	color: #0A0EC8;
+	font-family: comic sans ms, sans-serif;
+	font-weight: bold;
+	
+}
+
+@media (max-width: 780px) { .title {
+	font-size: 20px
+}}
+
+@media (min-width: 781px) { .title {
+	font-size: 36px
+}}
+
+
+img {
+	display: block;
+	margin: auto;
+}
+
+table {
+	border: 3px solid black;
+	margin: auto;
+	border-collapse: collapse;
+	width: 55%;
+	text-align: center;
+}
+
+th, td {
+	border: 2px solid black;
+	text-align: center;
+}
+
+th {
+	background-color: #C1D5DA;
+	font-size: 20px;
+}
+
+.relegation {
+	background-color: #D11414;
+}
+
+.Champions {
+	font-weight: bold;
+}
+
+#Chelsea {
+	background-color: #3479EE;
+}
+
+#blue {
+	color: #3479EE;
+	text-align: center;
+	margin: 0;
+}
+
+#red {
+	color: #D11414;
+	text-align: center;
+	margin: 0;
+}
+
+#bold {
+	font-weight: bold;
+	text-align: center;
+	margin: 0;
+}
+
+li {
+	font-size: 14pt;
+	margin: 4px;
+	font-family: comic sans ms, sans serif;
+}
+
+
+.Europa {
+	background-color: #127D16;
+}
+
+#green {
+	color: #127D16;
+	text-align: center;
+	margin: 0;
+}
+
+form {
+	text-align: center;
+}
+
+a { 
+	margin: 7px;
+}
+
+footer p {
+	text-align: center
+}
+
+.contains {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.card {
+	width: 200px;
+}
+
+.contains > div {
+	border: 4px solid black;
+	margin: 3px;
+	background-color: lightblue;
+	text-align: center;
+}
+
+.alert {
+	width: 70%;
+	text-align: center;
+	margin: auto;
+}
+

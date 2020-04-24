@@ -1,10 +1,4 @@
-.title {
-	text-align: center;
-	color: #0A0EC8;
-	font-family: comic sans ms, sans-serif;
-	font-weight: bold;
-	
-}
+
 
 @media (max-width: 780px) { .title {
 	font-size: 20px
@@ -28,14 +22,13 @@ table {
 	text-align: center;
 }
 
-th, td {
-	border: 2px solid black;
-	text-align: center;
-}
-
 th {
 	background-color: #C1D5DA;
 	font-size: 20px;
+}
+
+tr:hover {
+	background-color: #F7FB60;
 }
 
 .relegation {
@@ -46,51 +39,12 @@ th {
 	font-weight: bold;
 }
 
-#Chelsea {
+.Chelsea {
 	background-color: #3479EE;
 }
 
-#blue {
-	color: #3479EE;
-	text-align: center;
-	margin: 0;
-}
-
-#red {
-	color: #D11414;
-	text-align: center;
-	margin: 0;
-}
-
-#bold {
-	font-weight: bold;
-	text-align: center;
-	margin: 0;
-}
-
-li {
-	font-size: 14pt;
-	margin: 4px;
-	font-family: comic sans ms, sans serif;
-}
-
-
 .Europa {
 	background-color: #127D16;
-}
-
-#green {
-	color: #127D16;
-	text-align: center;
-	margin: 0;
-}
-
-form {
-	text-align: center;
-}
-
-a { 
-	margin: 7px;
 }
 
 footer p {
@@ -113,9 +67,5 @@ footer p {
 	text-align: center;
 }
 
-.alert {
-	width: 70%;
-	text-align: center;
-	margin: auto;
-}
+
 

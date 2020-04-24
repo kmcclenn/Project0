@@ -1,0 +1,81 @@
+$font-family: comic sans ms, sans serif;
+
+%message {
+	font-size: 20px;
+	text-align: center;
+	font-family: $font-family;
+	margin: 0;
+}
+
+#blue {
+	@extend %message;
+	color: #3479EE;
+}
+
+#red {
+	@extend %message;
+	color: #D11414;
+} 
+
+#bold {
+	@extend %message;
+	font-weight: bold;
+}
+
+#green {
+	@extend %message;
+	color: #127D16;
+}
+
+.title {
+	font-family: $font-family;
+	text-align: center;
+	color: blue;
+	font-weight: bold;
+}
+
+.alert {
+	text-align: center;
+	font-family: $font-family;
+	width: auto;
+	margin: auto;
+}
+
+form {
+	text-align: center;
+	font-family: $font-family;
+}
+
+option {
+	font-family: $font-family;
+}
+
+footer p {
+	font-family: $font-family;
+}
+
+th, td {
+	font-family: $font-family;
+	text-align: center;
+	border: 2px solid black;
+}
+
+li {
+	font-family: $font-family;
+	font-size: 19px;
+}
+
+a {
+	font-family: $font-family;
+	margin: 5px;
+}
+
+body > p {
+	font-family: $font-family;
+	font-size: 20px; 	
+}
+
+.container h3 {
+	font-family: $font-family;
+	text-align: center;
+} 

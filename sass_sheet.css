@@ -1,0 +1,77 @@
+#green, #bold, #red, #blue {
+  font-size: 20px;
+  text-align: center;
+  font-family: comic sans ms, sans serif;
+  margin: 0;
+}
+
+#blue {
+  color: #3479EE;
+}
+
+#red {
+  color: #D11414;
+}
+
+#bold {
+  font-weight: bold;
+}
+
+#green {
+  color: #127D16;
+}
+
+.title {
+  font-family: comic sans ms, sans serif;
+  text-align: center;
+  color: blue;
+  font-weight: bold;
+}
+
+.alert {
+  text-align: center;
+  font-family: comic sans ms, sans serif;
+  width: auto;
+  margin: auto;
+}
+
+form {
+  text-align: center;
+  font-family: comic sans ms, sans serif;
+}
+
+option {
+  font-family: comic sans ms, sans serif;
+}
+
+footer p {
+  font-family: comic sans ms, sans serif;
+}
+
+th, td {
+  font-family: comic sans ms, sans serif;
+  text-align: center;
+  border: 2px solid black;
+}
+
+li {
+  font-family: comic sans ms, sans serif;
+  font-size: 19px;
+}
+
+a {
+  font-family: comic sans ms, sans serif;
+  margin: 5px;
+}
+
+body > p {
+  font-family: comic sans ms, sans serif;
+  font-size: 20px;
+}
+
+.container h3 {
+  font-family: comic sans ms, sans serif;
+  text-align: center;
+}
+
+/*# sourceMappingURL=sass_sheet.css.map */

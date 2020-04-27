@@ -1,7 +1,7 @@
 #green, #bold, #red, #blue {
   font-size: 20px;
   text-align: center;
-  font-family: comic sans ms, sans serif;
+  font-family: EB Garamond, serif;
   margin: 0;
 }
 
@@ -21,8 +21,12 @@
   color: #127D16;
 }
 
+.h-number {
+  font-family: EB Garamond, serif;
+}
+
 .title {
-  font-family: comic sans ms, sans serif;
+  font-family: EB Garamond, serif;
   text-align: center;
   color: blue;
   font-weight: bold;
@@ -30,48 +34,80 @@
 
 .alert {
   text-align: center;
-  font-family: comic sans ms, sans serif;
+  font-family: EB Garamond, serif;
   width: auto;
   margin: auto;
 }
 
 form {
   text-align: center;
-  font-family: comic sans ms, sans serif;
+  font-family: EB Garamond, serif;
 }
 
 option {
-  font-family: comic sans ms, sans serif;
+  font-family: EB Garamond, serif;
 }
 
-footer p {
-  font-family: comic sans ms, sans serif;
+p {
+  font-family: EB Garamond, serif;
+}
+
+h5 {
+  font-family: EB Garamond, serif;
 }
 
 th, td {
-  font-family: comic sans ms, sans serif;
+  font-family: EB Garamond, serif;
   text-align: center;
+  font-size: 18px;
   border: 2px solid black;
 }
 
 li {
-  font-family: comic sans ms, sans serif;
-  font-size: 19px;
+  font-family: EB Garamond, serif;
+  font-size: 20px;
 }
 
 a {
-  font-family: comic sans ms, sans serif;
+  font-family: EB Garamond, serif;
   margin: 5px;
 }
 
 body > p {
-  font-family: comic sans ms, sans serif;
   font-size: 20px;
+  margin: 5px;
 }
 
 .container h3 {
-  font-family: comic sans ms, sans serif;
+  font-family: EB Garamond, serif;
   text-align: center;
+}
+
+.link {
+  font-family: EB Garamond, serif;
+  margin: 5px;
+}
+
+h5 {
+  font-family: EB Garamond, serif;
+}
+
+#otherinfo {
+  border: 8px groove lightgray;
+  padding: 3mm 1cm;
+  margin: auto;
+}
+#otherinfo img {
+  border: 3px solid black;
+  padding: 4px;
+  margin-top: 5mm;
+  margin-bottom: 5mm;
+}
+#otherinfo p, #otherinfo li {
+  font-size: 17px;
+}
+#otherinfo h5 {
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=sass_sheet.css.map */

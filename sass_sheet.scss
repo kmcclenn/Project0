@@ -1,4 +1,4 @@
-$font-family: comic sans ms, sans serif;
+$font-family: EB Garamond, serif;
 
 %message {
 	font-size: 20px;
@@ -27,6 +27,10 @@ $font-family: comic sans ms, sans serif;
 	color: #127D16;
 }
 
+.h-number {
+	font-family: $font-family;
+}
+
 .title {
 	font-family: $font-family;
 	text-align: center;
@@ -50,19 +54,24 @@ option {
 	font-family: $font-family;
 }
 
-footer p {
+p {
+	font-family: $font-family;
+}
+
+h5 {
 	font-family: $font-family;
 }
 
 th, td {
 	font-family: $font-family;
 	text-align: center;
+	font-size: 18px;
 	border: 2px solid black;
 }
 
 li {
 	font-family: $font-family;
-	font-size: 19px;
+	font-size: 20px;
 }
 
 a {
@@ -71,11 +80,38 @@ a {
 }
 
 body > p {
-	font-family: $font-family;
 	font-size: 20px; 	
+	margin: 5px;
 }
 
 .container h3 {
 	font-family: $font-family;
 	text-align: center;
 } 
+
+.link {
+	font-family: $font-family;
+	margin: 5px;
+}
+
+h5 {
+	font-family: $font-family;
+}
+
+#otherinfo {
+	border: 8px groove lightgray;
+	padding: 3mm 1cm;
+	margin: auto;
+	img {
+		border: 3px solid black;
+		padding: 4px;
+		margin-top: 5mm;
+		margin-bottom: 5mm;
+	}
+	p, li {
+		font-size: 17px;
+	}
+	h5 {
+		font-weight: bold;
+	}
+}

@@ -67,5 +67,10 @@ footer p {
 	text-align: center;
 }
 
+.contain {
+	margin: 5 px;
+}
 
-
+h5 {
+	text-align: center;
+}
